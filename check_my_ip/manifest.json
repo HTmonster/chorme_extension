@@ -1,0 +1,22 @@
+{
+    "manifest_version":2,
+    "name":"查看我的ip",
+    "version":"1.0",
+    "description":"查看当前电脑的ip",
+    "icons":{
+        "16":"icon/icon_16.png",
+        "32":"icon/icon_32.png",
+        "64":"icon/icon_64.png"
+    },
+    "browser_action":{
+        "default_icon":{
+            "16":"icon/icon_16.png",
+            "32":"icon/icon_32.png"
+        },
+        "default_title":"查看我的ip",
+        "default_popup":"popup.html"
+    },
+    "permissions":[
+        "https://api.ip.sb/ip"
+    ]
+}

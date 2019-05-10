@@ -1,0 +1,12 @@
+{
+    "manifest_version":2,
+    "name":"永远搜不到",
+    "version":"1.0",
+    "description":"恶作剧插件 无法点到搜索按钮",
+    "content_scripts":[
+        {
+            "matches":["*://www.google.com.hk/"],
+            "js":["js/cannot_touch.js"]
+        }
+    ]
+}
