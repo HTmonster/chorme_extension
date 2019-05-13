@@ -1,0 +1,24 @@
+{
+    "manifest_version":2,
+    "name":"百度是否在线",
+    "version":"1.0",
+    "description":"检测百度是否在线 断网：改变图标  【知识点：后台常驻运行】",
+    "icons":{
+        "16":"icon/Online_16.png",
+        "32":"icon/Online_32.png"
+    },
+    "browser_action":{
+        "default_icon":{
+            "16":"icon/Online_16.png",
+            "32":"icon/Online_32.png"
+        }
+    },
+    "background":{
+        "scripts":[
+            "js/status.js"
+        ]
+    },
+    "permissions":[
+        "https://www.baidu.com/"
+    ]
+}
